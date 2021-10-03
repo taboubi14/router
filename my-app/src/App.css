@@ -1,0 +1,27 @@
+.moviecard{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+   
+}
+.App {
+  background:#006064;
+}
+
+.hheader{
+  font-size: 40px;
+  text-align: center;
+  color :#efefef;
+  border-bottom: 3px solid #ffab91;
+  padding: 10px;
+}
+
+
+.footer{
+  background: #033031;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  padding: 0px 19px;
+  text-align: end;
+}

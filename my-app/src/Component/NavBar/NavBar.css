@@ -1,0 +1,70 @@
+.input{
+    border-radius: 10px;
+    padding-left: 10px;
+    height: 40px;
+    color: black;
+    margin-right: 10px;
+    margin-left: 20px;
+    background: white;
+   
+}
+.input::placeholder {
+    color: black;
+  }
+  
+.input:focus{
+  outline: none;
+  color: black;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+.starplusinput{
+    display: flex;
+}
+.reactstars{
+    font-size: 25px;
+    background-color: #efefef;
+    height: 40px;
+    border-radius: 5px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav_link{
+    display: flex;
+    justify-content: space-around; 
+    font-size: 18px;
+    width: 280px;
+
+    
+}
+.link{
+    height: 30px;
+    background-color: white;
+    border: none;
+    color: #d84315;
+    font-weight: 600;
+    width: 60px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.Add_btn{
+    height: 40px;
+    background-color: white;
+    border: none;
+    color: #d84315;
+    font-weight: 600;
+}
+
+.link:hover,
+.Add_btn:hover{
+    color: rgb(34, 140, 240);
+}
